@@ -7,6 +7,3 @@ keywords:
   - bookstore
 source:
   - https://github.com/velotio-tech/eks-blog
-maintainers:
-  - name: akash
-    email: akash.gautam@velotio.com

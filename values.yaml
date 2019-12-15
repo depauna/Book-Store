@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   app:
-    repository: akash125/pyapp
+    repository: depauna/pyapp
     tag: latest
     pullPolicy: IfNotPresent
   mongodb:

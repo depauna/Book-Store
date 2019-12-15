@@ -20,3 +20,9 @@ spec:
         - name: mongodbport
           containerPort: 27017
           protocol: TCP
+        volumeMounts:
+          - mountPath: /data/db
+            name: mongodb
+      volumes:
+      - name: mongodb
+        empryDir: {}
